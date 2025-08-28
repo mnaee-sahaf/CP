@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Run with I/O",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/main",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "MIMode": "lldb",
+            "preLaunchTask": "Run with Input/Output"
+        }
+    ]
+}
